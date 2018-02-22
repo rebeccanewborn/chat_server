@@ -1,24 +1,39 @@
-# README
+# The Conversation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Instant messaging application, both to all members of the application as well as one-on-one messaging capabilities. Server built with Rails and ActionCable. Client built with React/Redux.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Copy the link of repository upper right of this page (clone or download).
 
-* System dependencies
+```
+git clone git@github.com:rebeccanewborn/chat_server.git
+```
 
-* Configuration
+Change into the chat_server directory
 
-* Database creation
+```
+cd chat_server
+```
 
-* Database initialization
+Once you have gone into the chat_server directory, the following will download the necessary dependencies and boot up the server.
+**Be sure to run this server on port 3000 prior to running the client**
 
-* How to run the test suite
+```
+bundle install
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Built With
 
-* Deployment instructions
+* Rails
+* ActionCable
+* ActiveRecord
 
-* ...
+## Author
+
+* **Rebecca Newborn** - [Github](https://github.com/rebeccanewborn)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
